@@ -4,6 +4,7 @@ const cors = require("cors");
 const connectDB = require("./config/db");
 const errorHandler = require("./middleware/error");
 
+console.log("hello");
 //connect db
 connectDB();
 
